@@ -1,4 +1,4 @@
-# DP 3
+# DP 2
 if __FILE__ == $0
   s = gets.to_i
   mod = 10**9 + 7
