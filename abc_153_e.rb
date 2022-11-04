@@ -1,4 +1,4 @@
-# 数学 問題 3
+# DP4
 if __FILE__ == $0
   H, N = gets.split.map(&:to_i)
   dp = [10**10] * (H+1)
