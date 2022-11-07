@@ -57,4 +57,18 @@ end
 
 if __FILE__ == $0
   N, Q = gets.split.map(&:to_i)
+  A = gets.split.map(&:to_i)
+
+  seg = SegmentTree.new( A, 0, seg_f)
+  Q.times do |i|
+    t, x, y = gets.split.map(&:to_i)
+    if t == 1
+      x -= 1
+      seg.update(x, seg.select(x)^y)
+    else
+      x -= 1
+      y -= 1
+      print seg.query(x, y)
+    end
+  end
 end
