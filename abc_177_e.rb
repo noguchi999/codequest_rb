@@ -43,5 +43,16 @@ if __FILE__ == $0
   if pairwise
     puts "pairwise coprime"
     exit
-# 途中
+  end
+
+  g = A[0]
+  (1..N-1).each do |i|
+    g = g.gcd(A[i])
+  end
+
+  if g == 1
+    puts "setwise coprime"
+  else
+    puts "not coprime"
+  end
 end
