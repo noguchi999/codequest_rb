@@ -1,4 +1,4 @@
-# 数学問題1 Dif:274 ABC181 C
+# 余り Dif:292 ABC182 C
 if __FILE__ == $0
   _n = gets.split.map(&:to_i)
 
