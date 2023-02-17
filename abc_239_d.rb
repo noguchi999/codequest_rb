@@ -30,4 +30,19 @@ if __FILE__ == $0
   a, b, c, d = gets.split.map(&:to_i)
 
   _p = eratosthenes(200)
+  (a..b).each do |taka_num|
+    taka_win = true
+    (c..d).each do |aoki_num|
+      if taka_num + aoki_num in _p
+        taka_win = false
+      end
+    end
+
+    if taka_win
+      puts "Takahashi"
+      exit
+    end
+  end
+
+  puts "Aoki"
 end
