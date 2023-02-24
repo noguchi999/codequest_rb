@@ -11,4 +11,7 @@ if __FILE__ == $0
   lr = Array.new(N+1).map{[10**9, 1]}
   que = [[1, 0, 1]]
   leaf_count = 1
+  while 0 < que.size
+    now, parent, visit = que.pop
+  end
 end
