@@ -13,5 +13,23 @@ if __FILE__ == $0
   leaf_count = 1
   while 0 < que.size
     now, parent, visit = que.pop
+    if visit == 1
+      edge[now].each do |to|
+        if to != parent
+          que.push [to, now, 1]
+        end
+      end
+    else
+      if now != 1 && edge[now].size == 1
+        lr[now] = [leaf_count, leaf_count]
+        leaf_count += 1
+      end
+      lr[parent][0] = [lr[parent][0], lr[now][0]].min
+      lr[parent][1] = [lr[parent][1], lr[now][1]].max
+    end
+  end
+
+  (1..N).each do |i|
+    puts *lr[i]
   end
 end
