@@ -12,5 +12,6 @@ if __FILE__ == $0
   end
 
   S = gets
-
+  direct_l = []
+  direct_r = []
 end
