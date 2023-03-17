@@ -32,4 +32,13 @@ if __FILE__ == $0
     end
   end
 
+  y_set.each do |y|
+    if 1 <= direct_l[y].size && 1 <= direct_r[y].size
+      if direct_r[y].min < direct_l[y].max
+        puts 'Yes'
+        exit
+      end
+  end
+
+  puts 'No'
 end
