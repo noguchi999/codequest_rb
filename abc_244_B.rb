@@ -4,4 +4,6 @@ if __FILE__ == $0
   T = gets.chomp
 
   direct = "East"
+  X = 0
+  Y = 0
 end
