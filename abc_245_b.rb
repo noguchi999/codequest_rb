@@ -8,4 +8,5 @@ if __FILE__ == $0
       puts x
       exit
     end
+  end
 end
