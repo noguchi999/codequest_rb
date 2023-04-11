@@ -6,4 +6,5 @@ if __FILE__ == $0
     if S.include?(i.to_s)
       puts i
     end
+  end
 end
