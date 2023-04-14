@@ -16,4 +16,21 @@ if __FILE__ == $0
 
   _time = X
   aoki = 0
+  while 0 < _time
+    if D <= _time
+      aoki += D * E
+      _time -= D + F
+    else
+      aoki += _time * E
+      _time = 0
+    end
+  end
+
+  if aoki < taka
+    puts "Takahashi"
+  elsif aoki > taka
+    puts "Aoki"
+  else
+    puts "Draw"
+  end
 end
