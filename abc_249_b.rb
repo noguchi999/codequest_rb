@@ -12,4 +12,10 @@ if __FILE__ == $0
       is_lower_case = true
     end
   end
+
+  unless is_lower_case && is_upper_case
+    puts "No"
+    exit
+  end
+
 end
