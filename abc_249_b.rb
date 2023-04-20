@@ -18,4 +18,15 @@ if __FILE__ == $0
     exit
   end
 
+  n = S.length
+  n.times do |i|
+    if k in (i+1..n)
+      if S[i] == S[k]
+        puts "No"
+        exit
+      end
+    end
+  end
+
+  puts "Yes"
 end
