@@ -8,5 +8,8 @@ if __FILE__ == $0
   end
 
   ans = 0
-
+  (1<<N).times do |bitnum|
+    anstmp = 0
+    choosed = []
+  end
 end
