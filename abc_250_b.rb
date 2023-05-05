@@ -15,5 +15,17 @@ if __FILE__ == $0
         puts line
       end
     else
-
+      (1..A).each do |j|
+        line = ""
+        (1..N).each do |k|
+          if k %2 == 1
+            line += "#" * B
+          else
+            line += "." * B
+          end
+        end
+        puts line
+      end
+    end
+  end
 end
