@@ -6,5 +6,6 @@ if __FILE__ == $0
 
   Q.times do |i|
     x = gets.split.map(&:to_i)
+    x_index = index[x]
   end
 end
