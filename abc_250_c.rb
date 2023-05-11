@@ -7,5 +7,11 @@ if __FILE__ == $0
   Q.times do |i|
     x = gets.split.map(&:to_i)
     x_index = index[x]
+
+    right_x = nil
+    if x_index != N
+      right_x = A[x_index+1]
+
+
   end
 end
