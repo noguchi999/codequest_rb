@@ -1,5 +1,6 @@
 # ABC250 D
 def eratosthenes(n)
+  is_prime = Array.new(n+1, true)
 end
 
 if __FILE__ == $0
