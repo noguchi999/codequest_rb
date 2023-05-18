@@ -2,6 +2,12 @@
 def eratosthenes(n)
   is_prime = Array.new(n+1, true)
   i = 2
+  while i**2 <= n
+    unless is_prime[i]
+      i += 1
+      next
+    end
+  end
 end
 
 if __FILE__ == $0
