@@ -7,6 +7,8 @@ def eratosthenes(n)
       i += 1
       next
     end
+
+    k = 2
   end
 end
 
