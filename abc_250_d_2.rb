@@ -9,6 +9,11 @@ def eratosthenes(n)
     end
 
     k = 2
+    while i*k <= N
+      is_prime[i*k] = false
+      k += 1
+    end
+    i += 1
   end
 end
 
