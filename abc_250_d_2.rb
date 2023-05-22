@@ -15,6 +15,14 @@ def eratosthenes(n)
     end
     i += 1
   end
+
+  p_list = []
+  (2..n).each do |i|
+    if is_prime[i]
+      p_list << i
+    end
+  end
+  p_list
 end
 
 if __FILE__ == $0
