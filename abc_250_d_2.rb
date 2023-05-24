@@ -25,7 +25,9 @@ def eratosthenes(n)
   p_list
 end
 
-def nibutan(i)
+def nibutan(i, len_p)
+  l = 0
+  r = len_p - 1
 end
 
 if __FILE__ == $0
