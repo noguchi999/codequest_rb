@@ -14,6 +14,14 @@ def eratosthenes(n)
       k += 1
     end
     i += 1
+
+    p_list = []
+    (2..n).each do |i|
+      if is_prime[i]
+        p_list << i
+      end
+    end
+    p_list
   end
 
   p_list = []
