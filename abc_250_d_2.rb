@@ -43,4 +43,5 @@ if __FILE__ == $0
   P = eratosthenes(10**6)
 
   len_p = P.length
+  ans = 0
 end
