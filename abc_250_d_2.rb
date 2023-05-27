@@ -44,4 +44,8 @@ if __FILE__ == $0
 
   len_p = P.length
   ans = 0
+
+  len_p.times do |i|
+    k = nibutan(1, len_p)
+  end
 end
