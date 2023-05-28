@@ -47,5 +47,12 @@ if __FILE__ == $0
 
   len_p.times do |i|
     k = nibutan(1, len_p)
+    if i < k
+      ans += 1
+    else
+      break
+    end
   end
+
+  puts ans
 end
