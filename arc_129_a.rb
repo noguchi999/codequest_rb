@@ -10,4 +10,6 @@ if __FILE__ == $0
   while 2**(rk+1) <= R
     rk += 1
   end
+
+  ans = 0
 end
