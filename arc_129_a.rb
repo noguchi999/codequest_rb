@@ -12,4 +12,9 @@ if __FILE__ == $0
   end
 
   ans = 0
+  lk.upto(rk) do |i|
+    if (2**i)^N < N
+      ans += 2**(i+1) - 2**i
+    end
+  end
 end
