@@ -17,4 +17,8 @@ if __FILE__ == $0
       ans += 2**(i+1) - 2**i
     end
   end
+
+  if (2**lk)^N < N
+    ans += L - 2**lk
+  end
 end
