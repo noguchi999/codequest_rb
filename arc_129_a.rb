@@ -21,4 +21,10 @@ if __FILE__ == $0
   if (2**lk)^N < N
     ans += L - 2**lk
   end
+
+  if (2**rk)^N < N
+    ans -= (2**(rk+1)-1) - R
+  end
+
+  puts ans
 end
