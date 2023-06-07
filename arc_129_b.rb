@@ -8,5 +8,11 @@ if __FILE__ == $0
     l, r = gets.chomp.split().map(&:to_i)
     l_max = [l, l_max].max
     r_min = [r, r_min].min
+
+    if l_max <= r_min
+      puts 0
+    else
+      ((l_max - r_min) / 2).ceil
+    end
   end
 end
