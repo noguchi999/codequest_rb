@@ -12,7 +12,7 @@ if __FILE__ == $0
     if l_max <= r_min
       puts 0
     else
-      ((l_max - r_min) / 2).ceil
+      puts ((l_max - r_min) / 2).ceil
     end
   end
 end
