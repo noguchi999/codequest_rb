@@ -10,10 +10,17 @@ if __FILE__ == $0
     if S[i] == now
       count += 1
     else
-      s_list.push([now, count])
+      s_list << count
       now = S[i]
       count = 1
     end
   end
+  s_list << count
 
+  ans = 0
+  s_list.each do |s|
+    ans += s * (s + 1) / 2
+  end
+
+  puts ans
 end
