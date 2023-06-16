@@ -11,4 +11,8 @@ if __FILE__ == $0
   row_colors = {}
   col_colors = {}
   colors = Array.new(C+1, 0)
+  row = 0
+  col = 0
+
+  queries = queries.reverse
 end
