@@ -1,5 +1,9 @@
 # ARC131 A
 if __FILE__ == $0
-  A = gets.chomp.to_i
-  B = gets.chomp.to_i
+  a = gets.chomp.to_i
+  b = gets.chomp.to_i
+
+  b = (b / 2.0 * 10).to_i
+
+  puts "#{b}0#{a}"
 end
