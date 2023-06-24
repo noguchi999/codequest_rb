@@ -20,4 +20,16 @@ if __FILE__ == $0
     ci = gets.chomp
     grid << [ci]
   end
+
+  H.times do |r|
+    W.times do |c|
+      if grid[r][c] == "."
+        grid[r][c] = color(r, c)
+      end
+    end
+  end
+
+  grid.each do |r|
+    puts grid[r].join
+  end
 end
