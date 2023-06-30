@@ -6,4 +6,14 @@ if __FILE__ == $0
   q = gets.to_i
 
   ans = ""
+  q.times.each do |i|
+    r, c = gets.split.map(&:to_i)
+    if R[r] + C[c] <= n
+      ans += "."
+    else
+      ans += "#"
+    end
+  end
+
+  puts ans
 end
