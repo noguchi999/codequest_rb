@@ -15,4 +15,14 @@ if __FILE__ == $0
   end
 
   ans = 10**10
+  count = 0
+  if index_1 - 1 == index_n
+    count += index_n + 1
+    ans = [count, ans].min
+  else
+    count += index_1 + 1
+    count += 1
+    ans [count, ans].min
+  end
+  
 end
