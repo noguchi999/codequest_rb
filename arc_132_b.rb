@@ -25,4 +25,6 @@ if __FILE__ == $0
     ans [count, ans].min
   end
   
+  _p = _p.reverse
+  count = 1
 end
