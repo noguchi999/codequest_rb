@@ -4,4 +4,6 @@ if __FILE__ == $0
   A = gets.split.map(&:to_i)
 
   x = A[0]
+  (1..N).each do |i|
+  end
 end
