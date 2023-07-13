@@ -5,5 +5,10 @@ if __FILE__ == $0
 
   x = A[0]
   (1..N).each do |i|
+    if x <= A[i]
+      x = A[i]
+    else
+      break
+    end
   end
 end
