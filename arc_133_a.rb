@@ -11,4 +11,13 @@ if __FILE__ == $0
       break
     end
   end
+
+  ans=[]
+  N.times do |i|
+    if A[i] != x
+      ans << A[i]
+    end
+  end
+
+  puts ans
 end
