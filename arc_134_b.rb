@@ -20,4 +20,8 @@ if __FILE__ == $0
   s.each do |x|
     count[x] += 1
   end
+
+  l = 0
+  r = N - 1
+  x = target(count)
 end
