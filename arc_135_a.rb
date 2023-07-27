@@ -22,4 +22,14 @@ if __FILE__ == $0
         end
       end
     end
+    num_set = tmp_set
+  end
+
+  ans = 2.pow(count[2], mod)
+  ans *= 3.pow(count[3], mod)
+  ans %= mod
+  ans *= 4.pow(count[4], mod)
+  ans %= mod
+
+  puts ans
 end
