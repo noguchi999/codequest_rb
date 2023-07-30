@@ -12,4 +12,13 @@ if __FILE__ == $0
       S[i+1] = "X"
     end
   end
+
+  ans = ""
+  S.each do |s|
+    if s != "X"
+      ans += s
+    end
+  end
+
+  puts ans
 end
