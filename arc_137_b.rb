@@ -11,4 +11,7 @@ if __FILE__ == $0
       C[i] = C[i - 1]
     end
   end
+
+  min_l = 10**10
+  max_l = -10**10
 end
