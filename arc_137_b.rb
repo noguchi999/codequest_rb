@@ -14,4 +14,6 @@ if __FILE__ == $0
 
   min_l = 10**10
   max_l = -10**10
+  min_score = 10**10
+  max_score = -10**10
 end
