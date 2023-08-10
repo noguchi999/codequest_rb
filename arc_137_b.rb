@@ -18,5 +18,7 @@ if __FILE__ == $0
   max_score = -10**10
   (1..N).each do |r|
     l = r
+    min_l = [min_l, 2*C[l - 1] - l].min
+    max_l = [max_l, 2*C[l - 1] - l].max
   end
 end
