@@ -20,5 +20,8 @@ if __FILE__ == $0
     l = r
     min_l = [min_l, 2*C[l - 1] - l].min
     max_l = [max_l, 2*C[l - 1] - l].max
+
+    min_score = [min_score, C[N] + (1 + r -2*C[r]) + min_l].min
+    max_score = [max_score, C[N] + (1 + r -2*C[r]) + max_l].max
   end
 end
