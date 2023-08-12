@@ -24,4 +24,9 @@ if __FILE__ == $0
     min_score = [min_score, C[N] + (1 + r -2*C[r]) + min_l].min
     max_score = [max_score, C[N] + (1 + r -2*C[r]) + max_l].max
   end
+
+  min_score = [min_score, C[N]].min
+  max_score = [max_score, C[N]].max
+
+  puts max_score - min_score + 1
 end
