@@ -5,4 +5,7 @@ if __FILE__ == $0
 
   count_1 = A.count(1)
   a_conv  = Array.new(N+1, 0)
+  (1..N).each do |i|
+    S[i] = S[i-1] + a_conv[i]
+  end
 end
