@@ -8,4 +8,7 @@ if __FILE__ == $0
   (1..N).each do |i|
     S[i] = S[i-1] + a_conv[i]
   end
+
+  score_min = count_1
+  score_max = count_1
 end
