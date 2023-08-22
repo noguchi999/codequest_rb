@@ -11,4 +11,6 @@ if __FILE__ == $0
 
   score_min = count_1
   score_max = count_1
+  s_min = 10**10
+  s_max = 10**10
 end
