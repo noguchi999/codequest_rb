@@ -8,4 +8,7 @@ if __FILE__ == $0
     _p << [A[i], -i]
   end
   _p.sort!
+
+  ans = 10**10
+  index_max = -1
 end
