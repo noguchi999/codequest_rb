@@ -21,5 +21,9 @@ if __FILE__ == $0
     end
   end
 
-
+  if ans == 10**10
+    puts -1
+  else
+    puts ans
+  end
 end
