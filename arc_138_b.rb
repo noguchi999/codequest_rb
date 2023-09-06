@@ -15,7 +15,18 @@ if __FILE__ == $0
         puts "No"
         exit
       end
+    else
+      if A.last == 1
+        A.pop
+      elsif A.first == 1
+        A.shift
+        flip_count += 1
+      else
+        puts "No"
+        exit
+      end
     end
-    flip_count += 1
   end
+
+  puts "Yes"
 end
