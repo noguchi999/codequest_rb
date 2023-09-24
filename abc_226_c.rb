@@ -4,4 +4,7 @@ if __FILE__ == $0
 
   connect = Array.new(N).map{[]}
   T = [0]
+  (1..N).each do |i|
+    TKA = gets.split.map(&:to_i)
+  end
 end
