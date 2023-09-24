@@ -6,5 +6,7 @@ if __FILE__ == $0
   T = [0]
   (1..N).each do |i|
     TKA = gets.split.map(&:to_i)
+    T << TKA[0]
+    K = TKA[1]
   end
 end
