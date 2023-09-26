@@ -8,5 +8,9 @@ if __FILE__ == $0
     TKA = gets.split.map(&:to_i)
     T << TKA[0]
     K = TKA[1]
+
+    (2..K+1).each do |x|
+      connect[i] << TKA[x]
+    end
   end
 end
