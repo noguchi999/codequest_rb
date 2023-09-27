@@ -13,4 +13,5 @@ if __FILE__ == $0
       connect[i] << TKA[x]
     end
   end
+  lean = Array.new(N+1, false)
 end
