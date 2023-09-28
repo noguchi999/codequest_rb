@@ -14,4 +14,9 @@ if __FILE__ == $0
     end
   end
   lean = Array.new(N+1, false)
+
+  queue = [N]
+  while !queue.empty?
+    now = queue.shift
+  end
 end
