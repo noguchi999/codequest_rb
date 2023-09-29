@@ -18,5 +18,9 @@ if __FILE__ == $0
   queue = [N]
   while !queue.empty?
     now = queue.shift
+    lean[now] = true
+    connect[now].each do |to|
+      queue << to if !lean[to]
+    end
   end
 end
