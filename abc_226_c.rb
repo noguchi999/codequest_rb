@@ -23,4 +23,13 @@ if __FILE__ == $0
       queue << to if !lean[to]
     end
   end
+
+  ans = 0
+  (1..N).each do |i|
+    if lean[i]
+      ans += T[i]
+    end
+  end
+
+  puts ans
 end
