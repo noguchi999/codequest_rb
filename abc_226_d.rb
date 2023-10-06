@@ -4,4 +4,7 @@ if __FILE__ == $0
 
   _p = []
   magic = []
+  N.times do |i|
+    next if S == E
+  end
 end
