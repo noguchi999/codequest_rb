@@ -5,6 +5,7 @@ if __FILE__ == $0
   _p = []
   magic = []
   N.times do |i|
-    next if S == E
+    x, y = gets.split.map(&:to_i)
+    _p << [x, y]
   end
 end
