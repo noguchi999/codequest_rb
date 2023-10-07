@@ -8,4 +8,9 @@ if __FILE__ == $0
     x, y = gets.split.map(&:to_i)
     _p << [x, y]
   end
+
+  N.times do |s|
+    N.times do |e|
+    end
+  end
 end
