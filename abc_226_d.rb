@@ -11,6 +11,9 @@ if __FILE__ == $0
 
   N.times do |s|
     N.times do |e|
+      next if s == e
+      xs, ys = _p[s][0], _p[s][1]
+      xe, ye = _p[e][0], _p[e][1]
     end
   end
 end
