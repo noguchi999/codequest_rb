@@ -4,4 +4,6 @@ if __FILE__ == $0
 
   human = A
   count = 1
+  while human < K
+  end
 end
