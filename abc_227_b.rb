@@ -4,4 +4,6 @@ if __FILE__ == $0
   S = gets.split.map(&:to_i)
 
   area = []
+  (1..1000).each do |a|
+  end
 end
