@@ -5,5 +5,7 @@ if __FILE__ == $0
 
   area = []
   (1..1000).each do |a|
+    (1..1000).each do |b|
+    end
   end
 end
