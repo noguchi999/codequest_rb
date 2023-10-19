@@ -6,6 +6,16 @@ if __FILE__ == $0
   area = []
   (1..1000).each do |a|
     (1..1000).each do |b|
+      area << (4*a*b + 3*a + 3*b)
     end
   end
+
+  count = 0
+  N.times do |i|
+    unless area.include?(S[i])
+      count += 1
+    end
+  end
+
+  puts count
 end
