@@ -4,4 +4,5 @@ if __FILE__ == $0
   A = [0] + gets.split.map(&:to_i)
 
   know = Array.new(N, false)
+  next_friend = X
 end
