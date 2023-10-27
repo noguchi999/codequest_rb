@@ -5,4 +5,9 @@ if __FILE__ == $0
 
   know = Array.new(N, false)
   next_friend = X
+
+  while know[next_friend] == false
+    know[next_friend] = true
+    next_friend = A[next_friend]
+  end
 end
