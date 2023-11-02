@@ -9,4 +9,12 @@ if __FILE__ == $0
   end
 
   point_sorted = point.sort_reverse
+  lowest_point = point_sorted[K-1]
+
+  N.times do |i|
+    if lowest_point <= point[i] + 300
+      puts "Yes"
+    else
+      puts "No"
+    end
 end
