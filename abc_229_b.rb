@@ -4,4 +4,6 @@ if __FILE__ == $0
 
   _a.reverse!
   _b.reverse!
+
+  keta = [_a.length, _b.length].min
 end
