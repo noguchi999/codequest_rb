@@ -5,4 +5,6 @@ if __FILE__ == $0
 
   k1L = [1-A, 1-B].max
   k1R = [N-A, N-B].min
+
+  left_up_row, left_up_col = A + k1L, B + k1L
 end
