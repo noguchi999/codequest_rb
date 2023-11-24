@@ -10,4 +10,6 @@ if __FILE__ == $0
   right_down_row, right_down_col = A + k1R, B + k1R
   right_up_row, right_up_col = A + k2L, B - k2L
   left_down_row, left_down_col = A + k2R, B - k2R
+
+  ans = Array.new(Q-P+1+1) { Array.new(S-R+1+1, ".") }
 end
