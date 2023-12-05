@@ -4,4 +4,12 @@ if __FILE__ == $0
 
   votes = []
   candidates = Set.new
+
+  N.times do |i|
+    S = gets.chomp
+    votes << S
+    candidates << S
+  end
+
+
 end
