@@ -11,5 +11,7 @@ if __FILE__ == $0
     candidates << S
   end
 
+  ans = ""
+  count = 0
 
 end
