@@ -11,7 +11,15 @@ if __FILE__ == $0
     candidates << S
   end
 
-  ans = ""
-  count = 0
+  ans_name = ""
+  ans_count = 0
+  candidates.each do |name|
+    count = votes.count(name)
+    if ans_count < count
+      ans_name = name
+      ans_count = count
+    end
+  end
 
+  puts ans_name
 end
