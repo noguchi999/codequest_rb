@@ -12,4 +12,12 @@ if __FILE__ == $0
   S = gets.chomp
   T = gets.chomp
 
+  25.times do |k|
+    if convert(S, k) == T
+      puts "Yes"
+      exit
+    end
+  end
+
+  puts "No"
 end
