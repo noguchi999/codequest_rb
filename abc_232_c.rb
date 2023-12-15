@@ -9,4 +9,9 @@ if __FILE__ == $0
     takahashi[B][A] = true
   end
 
+  aoki_input = []
+  M.times do |i|
+    C, D = gets.chomp.split.map(&:to_i)
+    aoki_input << [C, D]
+  end
 end
