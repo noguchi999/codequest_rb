@@ -14,4 +14,7 @@ if __FILE__ == $0
     C, D = gets.chomp.split.map(&:to_i)
     aoki_input << [C, D]
   end
+
+  (1..N).to_a.permutation(N).each do |_p|
+  end
 end
