@@ -16,5 +16,15 @@ if __FILE__ == $0
   end
 
   (1..N).to_a.permutation(N).each do |_p|
+    aoki = Array.new(N+1) { Array.new(N+1, false) }
+    aoki_input.each do |c, d|
+      c_conv = _p[c-1]
+      d_conv = _p[d-1]
+
+      aoki[c_conv][d_conv] = true
+      aoki[d_conv][c_conv] = true
+    end
   end
+
+  OK = true
 end
