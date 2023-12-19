@@ -24,7 +24,22 @@ if __FILE__ == $0
       aoki[c_conv][d_conv] = true
       aoki[d_conv][c_conv] = true
     end
+
+    OK = true
+    (1..N+1).each do |x|
+      (1..N+1).each do |y|
+        if takahashi[x][y] != aoki[x][y]
+          OK = false
+          break
+        end
+      end
+    end
+
+    if OK
+      puts 'Yes'
+      exit
+    end
   end
 
-  OK = true
+  puts 'No'
 end
