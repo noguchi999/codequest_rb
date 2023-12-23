@@ -10,4 +10,11 @@ if __FILE__ == $0
   end
 
   grid_count = Array.new(H) { Array.new(W, 0) }
+  queue = []
+  grid_count[0][0] = 1
+  queue << [0, 0]
+
+  while !queue.empty?
+    g, r = queue.shift
+  end
 end
