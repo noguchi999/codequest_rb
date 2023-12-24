@@ -16,5 +16,6 @@ if __FILE__ == $0
 
   while !queue.empty?
     g, r = queue.shift
+    now_count = grid_count[g][r]
   end
 end
