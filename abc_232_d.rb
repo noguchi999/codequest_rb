@@ -34,4 +34,11 @@ if __FILE__ == $0
   end
 
   ans = 0
+  H.times do |g|
+    W.times do |r|
+      ans = [ans, grid_count[g][r]].max
+    end
+  end
+
+  puts ans
 end
