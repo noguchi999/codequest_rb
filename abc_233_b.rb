@@ -1,4 +1,4 @@
-# ABC233 A
+# ABC233 B
 if __FILE__ == $0
   L, R = gets.chomp.split.map(&:to_i)
   S = gets
