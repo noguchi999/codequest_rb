@@ -13,4 +13,7 @@ if __FILE__ == $0
     d[i-1] += d[i] / 10
     d[i] = (d[i]%10).to_s
   end
+
+  d[0] = d[0].to_s
+  puts d.join
 end
