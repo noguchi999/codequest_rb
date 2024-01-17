@@ -1,4 +1,18 @@
 # ABC234 E
+def make_num(a, d, n)
+  num = ""
+  n.times do |i|
+    x = a + d * i
+    if x.between?(0, 9)
+      num += x.to_s
+    else
+      return -1
+    end
+  end
+
+  num.to_i
+end
+
 if __FILE__ == $0
   num_list = []
 
