@@ -19,7 +19,15 @@ if __FILE__ == $0
   (1..10).each do |a|
     (-9..10).each do |b|
       (1..19).each do |n|
+        num = make_num(a, b, n)
+        if num != -1
+          num_list << num
+        end
       end
     end
   end
+
+  num_list.sort!
+
+  X = gets.to_i
 end
