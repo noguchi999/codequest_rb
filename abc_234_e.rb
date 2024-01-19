@@ -30,4 +30,10 @@ if __FILE__ == $0
   num_list.sort!
 
   X = gets.to_i
+  i = 0
+  while num_list[i] < X
+    i += 1
+  end
+
+  puts num_list[i]
 end
