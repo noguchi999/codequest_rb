@@ -4,4 +4,5 @@ if __FILE__ == $0
   a = gets.chomp.split('').map(&:to_i)
 
   count = Hash.new {|h, k| h[k] = Hash.new(0)}
+  index = Hash.new {|h, k| h[k] = Hash.new(0)}
 end
