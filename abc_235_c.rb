@@ -5,4 +5,8 @@ if __FILE__ == $0
 
   count = Hash.new {|h, k| h[k] = Hash.new(0)}
   index = Hash.new {|h, k| h[k] = Hash.new(0)}
+
+  N.times do |i|
+    count[a[i]] += 1
+  end
 end
