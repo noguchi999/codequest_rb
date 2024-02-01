@@ -8,5 +8,6 @@ if __FILE__ == $0
 
   N.times do |i|
     count[a[i]] += 1
+    index[a[i]][count[a[i]]] = i + 1
   end
 end
