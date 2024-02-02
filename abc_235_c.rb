@@ -10,4 +10,8 @@ if __FILE__ == $0
     count[a[i]] += 1
     index[a[i]][count[a[i]]] = i + 1
   end
+
+  Q.times do |i|
+    x, k = gets.split.map(&:to_i)
+  end
 end
