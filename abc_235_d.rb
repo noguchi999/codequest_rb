@@ -4,4 +4,8 @@ if __FILE__ == $0
   count = Array.new(10**6, -1)
   queue = [1]
   count[1] = 0
+
+  while !queue.empty?
+    _now = queue.shift
+  end
 end
