@@ -7,5 +7,6 @@ if __FILE__ == $0
 
   while !queue.empty?
     _now = queue.shift
+    c = count[_now]
   end
 end
