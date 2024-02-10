@@ -8,5 +8,6 @@ if __FILE__ == $0
   while !queue.empty?
     _now = queue.shift
     c = count[_now]
+    to = _now * a
   end
 end
