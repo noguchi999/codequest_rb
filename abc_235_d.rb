@@ -9,5 +9,12 @@ if __FILE__ == $0
     _now = queue.shift
     c = count[_now]
     to = _now * a
+
+    if to < 10**6
+      if count[to] == -1
+        count[to] = c + 1
+        queue << to
+      end
+    end
   end
 end
