@@ -16,5 +16,8 @@ if __FILE__ == $0
         queue << to
       end
     end
+
+    if 10 <= _now && _now%10 != 0
+    end
   end
 end
