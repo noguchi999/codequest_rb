@@ -18,6 +18,8 @@ if __FILE__ == $0
     end
 
     if 10 <= _now && _now%10 != 0
+      now_str = _now.to_s
+      to_str = now_str[-1] + now_str[0..-2]
     end
   end
 end
