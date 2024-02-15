@@ -20,6 +20,13 @@ if __FILE__ == $0
     if 10 <= _now && _now%10 != 0
       now_str = _now.to_s
       to_str = now_str[-1] + now_str[0..-2]
+      to = to_str.to_i
+      if count[to] == -1
+        count[to] = c + 1
+        queue << to
+      end
     end
   end
+
+  puts count[n]
 end
