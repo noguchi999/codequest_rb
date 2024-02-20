@@ -13,5 +13,13 @@ if __FILE__ == $0
     puts 3638
   elsif s == "Stonefeang"
     puts 3630
+  elsif s == "ecnerwala"
+    puts 3613
+  elsif s == "mnbvmar"
+    puts 3555
+  elsif s == "newbiedmy"
+    puts 3516
+  elsif s == "semiexp"
+    puts 3481
   end
 end
